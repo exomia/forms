@@ -143,8 +143,7 @@ namespace Exomia.Forms
         /// </summary>
         public Sidebar()
         {
-            _leftBorderBtn = new Panel { Size = new Size(7, 0) };
-            Controls.Add(_leftBorderBtn);
+            Controls.Add(_leftBorderBtn = new Panel());
             AutoScroll = true;
         }
 
